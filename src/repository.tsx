@@ -5,7 +5,7 @@ export const Repository: FC<{ title: string }> = (props) => {
   return (
     <a
       href={"https://github.com/" + props.title}
-      className="border p-4 rounded-md border-neutral-300 hover:border-neutral-400"
+      className="border p-4 rounded-md border-neutral-300 hover:border-neutral-400 bg-white"
       target="_blank"
     >
       <div className="flex items-center gap-2">

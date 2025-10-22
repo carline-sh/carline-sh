@@ -1,3 +1,3 @@
 # Hi! I'm Carline.
 
-### These are the projects I've been working on.
+I'm a beginner web developer and these are some of my projects.
