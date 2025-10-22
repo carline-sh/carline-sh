@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="bg-neutral-50 max-h-screen overflow-y-auto">
       <div className="min-h-screen">
-        <div className="w-full max-w-xl p-4 mx-auto mt-12 space-y-4">
+        <div className="w-full max-w-xl p-4 mx-auto mt-4 md:mt-12 space-y-4">
           <div className="bg-neutral-200 p-12 gap-4 rounded-md">
             <div className="h-16 w-16 rounded-full mx-auto overflow-hidden">
               <img
