@@ -92,7 +92,7 @@ function App() {
             {[
               "carline-sh/100-days-of-code",
               "carline-sh/catsplainer",
-              "carline.sh",
+              "carline-sh/carline-sh",
             ].map((title) => (
               <Repository title={title} />
             ))}
