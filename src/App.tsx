@@ -1,6 +1,7 @@
 import { FaGithub, FaHtml5, FaJs, FaLinkedin } from "react-icons/fa";
 import { Repository } from "./repository";
 import { SiReact, SiTailwindcss, SiTypescript, SiCss3 } from "react-icons/si";
+import { Website } from "./website";
 
 function App() {
   return (
@@ -97,6 +98,11 @@ function App() {
             ].map((title) => (
               <Repository title={title} />
             ))}
+            <Website
+              title="hangman"
+              url="https://carline-sh.github.io/100-days-of-code/hangman/"
+            />
+            <Website title="carline.sh" url="https://carline.sh" />
           </div>
         </div>
       </div>

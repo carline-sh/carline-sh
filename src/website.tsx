@@ -1,15 +1,15 @@
 import type { FC } from "react";
-import { GoRepo } from "react-icons/go";
+import { CiGlobe } from "react-icons/ci";
 
-export const Repository: FC<{ title: string }> = (props) => {
+export const Website: FC<{ title: string; url: string }> = (props) => {
   return (
     <a
-      href={"https://github.com/" + props.title}
+      href={props.url}
       className="border p-4 rounded-md border-neutral-300 hover:border-neutral-400 bg-white"
       target="_blank"
     >
       <div className="flex items-center gap-2">
-        <GoRepo className="text-neutral-600" />
+        <CiGlobe className="text-neutral-600" />
         <div>{props.title}</div>
       </div>
     </a>
