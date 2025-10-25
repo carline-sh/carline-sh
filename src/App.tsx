@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="bg-neutral-50 max-h-screen overflow-y-auto">
       <div className="min-h-screen">
-        <div className="w-full max-w-xl p-4 mx-auto mt-4 md:mt-12 space-y-4">
+        <div className="w-full max-w-3xl p-4 mx-auto mt-4 md:mt-12 space-y-4">
           <div className="bg-neutral-200 p-12 gap-4 rounded-md">
             <div className="h-16 w-16 rounded-full mx-auto overflow-hidden">
               <img
@@ -91,12 +91,24 @@ function App() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-4 text-neutral-700">
             {[
-              "carline-sh/100-days-of-code",
-              "carline-sh/catsplainer",
-              "carline-sh/carline-sh",
-              "carline-sh/tesla-clone",
+              {
+                name: "carline-sh/100-days-of-code",
+                text: "An overview of my 100 days of code journey. ",
+              },
+              {
+                name: "carline-sh/catsplainer",
+                text: "A website that explains ethereum with cats. 🐱",
+              },
+              {
+                name: "carline-sh/carline-sh",
+                text: "My personal website. ",
+              },
+              {
+                name: "carline-sh/tesla-clone",
+                text: "A rebuild of the Tesla model S website. 🚗",
+              },
             ].map((title) => (
-              <Repository title={title} />
+              <Repository title={title.name} text={title.text} />
             ))}
             <Website
               title="hangman"
@@ -108,7 +120,7 @@ function App() {
               url="https://carline-sh.github.io/100-days-of-code/"
             />
           </div>
-          <footer className="flex justify-center items-center">
+          <footer className="flex justify-center items-center pt-4">
             <div className="text-neutral-700">
               &copy; carline.sh — {new Date().getFullYear()}
             </div>
