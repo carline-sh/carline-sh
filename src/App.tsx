@@ -103,6 +103,10 @@ function App() {
               url="https://carline-sh.github.io/100-days-of-code/hangman/"
             />
             <Website title="carline.sh" url="https://carline.sh" />
+            <Website
+              title="100 days of code"
+              url="https://carline-sh.github.io/100-days-of-code/"
+            />
           </div>
         </div>
       </div>
