@@ -108,6 +108,11 @@ function App() {
               url="https://carline-sh.github.io/100-days-of-code/"
             />
           </div>
+          <footer className="flex justify-center items-center">
+            <div className="text-neutral-700">
+              &copy; carline.sh — {new Date().getFullYear()}
+            </div>
+          </footer>
         </div>
       </div>
     </div>
