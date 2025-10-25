@@ -93,19 +93,19 @@ function App() {
             {[
               {
                 name: "carline-sh/100-days-of-code",
-                text: "An overview of my 100 days of code journey. ",
+                text: "An overview of my 100 days of code journey. 🗓️",
               },
               {
                 name: "carline-sh/catsplainer",
                 text: "A website that explains ethereum with cats. 🐱",
               },
               {
-                name: "carline-sh/carline-sh",
-                text: "My personal website. ",
-              },
-              {
                 name: "carline-sh/tesla-clone",
                 text: "A rebuild of the Tesla model S website. 🚗",
+              },
+              {
+                name: "carline-sh/carline-sh",
+                text: "My personal website. 🌐",
               },
             ].map((title) => (
               <Repository title={title.name} text={title.text} />
@@ -114,7 +114,6 @@ function App() {
               title="hangman"
               url="https://carline-sh.github.io/100-days-of-code/hangman/"
             />
-            <Website title="carline.sh" url="https://carline.sh" />
             <Website
               title="100 days of code"
               url="https://carline-sh.github.io/100-days-of-code/"
